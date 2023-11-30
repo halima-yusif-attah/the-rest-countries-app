@@ -1,8 +1,8 @@
 {
   "name": "rest-countries",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://YAHalima.github.io/the-rest-countries-app",
+  "private": true,  
+  "homepage": "/the-rest-countries-app",     
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
