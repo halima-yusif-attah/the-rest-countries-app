@@ -60,7 +60,6 @@ export const AllDataProvider: React.FC<AllDataProps> = ({ children }) => {
         }
 
         const result: ApiData[] = await response.json();
-        console.log('result', result);
         setData(result);
         setLoading(false);
       } catch (error: any) {
