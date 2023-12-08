@@ -47,8 +47,7 @@ interface ApiData {
 
 const DetailsPage = () => {
     const { countryName } = useParams();
-    const allDataContext = useContext(AllDataContext) || [];
-    const data: ApiData[] = allDataContext;
+    const data = useContext(AllDataContext) || [];
     const themecontext = useContext(ThemeContext);
 
     if (!themecontext) {
@@ -78,7 +77,7 @@ const DetailsPage = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
-            height="20"
+            height="13.3"
             viewBox="0 0 20 20"
             fill="none"
           >

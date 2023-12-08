@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import { AllDataContext } from "./LoadData"; 
 
 const Country = () => {
-    const allDataContext = useContext(AllDataContext) || [];
-    const data = allDataContext;
-
+    const data = useContext(AllDataContext) || [];
 
   return (
     <div className="country-container">

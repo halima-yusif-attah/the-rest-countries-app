@@ -18,13 +18,12 @@ export const FilterProvider: React.FC<FilterProps> = ({ children }) => {
     const [filteredData, setFilteredData] = useState('');
  
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-      setSearch(e.target.value);
+      setSearch(e.target.value.toLowerCase());
     };
 
 
   const handleFilter = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedRegion = e.target.value.toLowerCase();
-    console.log("selected", selectedRegion);
     setFilteredData(selectedRegion);
   };
 
