@@ -63,7 +63,7 @@ const Buttons = () => {
           }`}
           defaultValue=""
         >
-          <option value="" disabled>
+          <option value="" >
             Filter by Region
           </option>
           {allDataContext
