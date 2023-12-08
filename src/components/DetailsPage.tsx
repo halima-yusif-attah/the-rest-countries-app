@@ -49,6 +49,7 @@ const DetailsPage = () => {
     const { countryName } = useParams();
     const data = useContext(AllDataContext) || [];
     const themecontext = useContext(ThemeContext);
+    
 
     if (!themecontext) {
       return null;
